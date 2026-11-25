@@ -1,0 +1,23 @@
+{
+  "name": "ottoman-atlas",
+  "version": "1.0.0",
+  "description": "Қазақ тіліндегі интерактивті тарихи көрме",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "offline": "node scripts/offline.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "gsap": "3.15.1",
+    "vite": "8.3.8"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
